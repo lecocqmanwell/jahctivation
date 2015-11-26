@@ -67,7 +67,7 @@ a:focus {
 /*========================================================================================================
                 bio page
 ========================================================================================================            */
-<<<<<<< HEAD
+
 
 
 .navbar-inverse {
@@ -80,8 +80,7 @@ a:focus {
 }
 
 .navbar-inverse .navbar-header .navbar-brand {
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  
     font-weight: 700;
     color: #fff;
 }
@@ -156,16 +155,9 @@ a:focus {
 
 /*===========================================================================================================*/
 
-.rubberBand {
-  animation-play-state: paused;
-}
-.rubberBand:hover {
-  animation-play-state: running;
-=======
-.biotxt {
+.biotext {
     text-align: justify;
     margin-top: 3em;
     font-weight: bold;
     margin-bottom: 2em;
->>>>>>> 113657f629a1e28d7ace997e69479c03237d4606
-}
+  }
