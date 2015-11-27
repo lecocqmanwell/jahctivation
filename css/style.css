@@ -315,3 +315,7 @@ a:focus {
 .mediatxt {
     margin: 20px 20px;
 }
+.playersound {
+    margin: 20px 0 20px 0;
+    padding: 10em;
+}
