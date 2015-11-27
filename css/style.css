@@ -83,6 +83,7 @@ a:focus {
 .navbar-inverse .navbar-header .navbar-brand:hover,
 .navbar-inverse .navbar-header .navbar-brand:focus {
     color: red;
+    transition: all 0.45s ease 0s;
 }
 
 .navbar-inverse .nav > li>#acc,
@@ -96,6 +97,7 @@ a:focus {
 .navbar-inverse .nav > li>#acc:hover,
 .navbar-inverse .nav>li>#acc:focus:hover {
     color: grey;
+    transition: all 0.45s ease 0s;
 }
 .navbar-inverse .nav > li>#bio,
 .navbar-inverse .nav>li>#bio:focus {
@@ -108,6 +110,7 @@ a:focus {
 .navbar-inverse .nav > li>#bio:hover,
 .navbar-inverse .nav>li>#bio:focus:hover {
     color: #5CB85C;
+    transition: all 0.45s ease 0s;
 }
 
 .navbar-inverse .nav > li>#show,
@@ -121,6 +124,7 @@ a:focus {
 .navbar-inverse .nav > li>#show:hover,
 .navbar-inverse .nav>li>#show:focus:hover {
     color: #ffe63b;
+    transition: all 0.45s ease 0s;
 }
 .navbar-inverse .nav > li>#media,
 .navbar-inverse .nav>li>#media:focus {
@@ -133,6 +137,7 @@ a:focus {
 .navbar-inverse .nav > li>#media:hover,
 .navbar-inverse .nav>li>#media:focus:hover {
     color: #FF3737;
+    transition: all 0.45s ease 0s;
 }
 .navbar-inverse .nav > li>#contact,
 .navbar-inverse .nav>li>#contact:focus {
@@ -145,7 +150,9 @@ a:focus {
 .navbar-inverse .nav > li>#contact:hover,
 .navbar-inverse .nav>li>#contact:focus:hover {
     color: grey;
+    transition: all 0.45s ease 0s;
 }
+
 /*========================================================================================================
                 acceuil page
 ========================================================================================================            */
