@@ -171,5 +171,14 @@ a:focus {
     padding: 50px;
 }
 .bioimg {
-    padding: 1em;
+    padding: 10em 19em ;
+}
+#dancingss {
+    height: 500px;
+    width: auto;
+}
+#logoss {
+    height: 500px;
+    width: auto;
+    padding-left: 2em;
 }
