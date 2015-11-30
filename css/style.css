@@ -45,10 +45,11 @@ h1 {
 }
 .backgroundcolor1 {
     background-color: #5CB85C;
-    color: white;
+    color: #222;
 }
 .backgroundcolor2 {
     background-color: #ffe63b;
+    color: #222;
 }
 .backgroundcolor3 {
     background-color: #FF3737;
@@ -176,6 +177,9 @@ footer .footer-col {
 footer.text-center {
     width: 100%;
     height: 370px;
+}
+.footer-above {
+  background-color: black;
 }
 
 /*========================================================================================================
@@ -317,7 +321,8 @@ a:focus {
     margin: 35px 35px 45px;
 }
 .rowacceuil {
-    padding: 70px 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*========================================================================================================
