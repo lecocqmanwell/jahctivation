@@ -178,7 +178,7 @@ footer.text-center {
   height: 370px;
 }
 /*========================================================================================================
-            boutons
+            navbar
 ========================================================================================================            */
 .btn {
     border: 0px none;
@@ -278,14 +278,60 @@ a:focus {
     transition: all 0.45s ease 0s;
 }
 
+.navbar-inverse .nav > li>#bio:hover,
+.navbar-inverse .nav>li>#bio:focus:hover {
+    color: #5CB85C;
+}
+
+.navbar-inverse .nav > li.active>#bio,
+.navbar-inverse .nav>li.active>#bio:focus {
+    color: #5CB85C!important;
+    background-color: transparent;
+}
+
+
+.navbar-inverse .nav > li>#show:hover,
+.navbar-inverse .nav>li>#show:focus:hover {
+    color: #ffe63b;
+}
+
+.navbar-inverse .nav > li.active>#show,
+.navbar-inverse .nav>li.active>#show:focus {
+    color: #ffe63b!important;
+    background-color: transparent;
+}
+
+
+.navbar-inverse .nav > li>#media:hover,
+.navbar-inverse .nav>li>#media:focus:hover {
+    color: #FF3737;
+}
+
+.navbar-inverse .nav > li.active>#media,
+.navbar-inverse .nav>li.active>#media:focus {
+    color: #FF3737!important;
+    background-color: transparent;
+}
+
+.navbar-inverse .nav > li>#contact:hover,
+.navbar-inverse .nav>li>#contact:focus:hover {
+    color: grey ;
+}
+
+.navbar-inverse .nav > li.active>#contact,
+.navbar-inverse .nav>li.active>#contact:focus {
+    color: grey !important;
+    background-color: transparent;
+}
+
 /*========================================================================================================
                 acceuil page
 ========================================================================================================            */
 .pacceuil {
-    margin: 25px 25px 30px;
+    margin: 35px 35px 45px;
 }
 .rowacceuil {
-  padding: 50px 50px;
+  padding: 70px 70px;
 }
 /*========================================================================================================
                 bio page
