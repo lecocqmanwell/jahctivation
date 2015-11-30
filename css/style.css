@@ -316,8 +316,10 @@ a:focus {
     width: auto;
     padding-left: 2em;
 }
-#bwss {
-    padding-left: 0
+#mixclr {
+    padding-left: 50;
+    height: 650px;
+    width: auto;
 }
 /*========================================================================================================
                 medias page
@@ -332,4 +334,7 @@ a:focus {
 .playersound {
     margin: 20px 0 20px 0;
     padding: 10em;
+}
+#myCarousel {
+    padding: 30em;
 }
