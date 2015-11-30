@@ -75,3 +75,15 @@ $('a[href^="#"]').click(function(){
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+
+//POUR LAPPARITION DES IMAGES EN MODE SWAG!!!!
+
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 700) {
+    $('#bioimg').addClass("animated fadeIn");
+  } else {
+    $('#bioimg').removeClass("animated fadeIn");
+  }
+});
