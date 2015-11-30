@@ -287,7 +287,16 @@ a:focus {
 /*========================================================================================================
                 acceuil page
 ========================================================================================================            */
-
+#indexplayer {
+    margin-top: 13em;
+    width: 41em;
+    margin-left: -192em;
+    opacity: 0.4;
+}
+#indexplayer:hover {
+    opacity: 1;
+    transition: all 0.45s ease 0s;
+}
 .pacceuil {
     margin: 35px 35px 45px;
 }
