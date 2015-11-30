@@ -8,7 +8,7 @@ body {
 h1, h2, h3 {
     font-family: lobster, "Open Sans", "Helvetica Neue", Arial, sans-serif
 }
-p, .navtxt {
+p, .navtxt, time {
     font-size: 2.7em;
     font-family: cuprum;
 }
