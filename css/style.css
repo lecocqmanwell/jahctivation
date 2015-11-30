@@ -287,6 +287,7 @@ a:focus {
 .navbar-inverse .nav>li.active>#bio:focus {
     color: #5CB85C!important;
     background-color: transparent;
+    transition: all 0.45s ease 0s;
 }
 
 
@@ -299,6 +300,7 @@ a:focus {
 .navbar-inverse .nav>li.active>#show:focus {
     color: #ffe63b!important;
     background-color: transparent;
+    transition: all 0.55s ease 0s;
 }
 
 
@@ -311,6 +313,7 @@ a:focus {
 .navbar-inverse .nav>li.active>#media:focus {
     color: #FF3737!important;
     background-color: transparent;
+    transition: all 0.45s ease 0s;
 }
 
 .navbar-inverse .nav > li>#contact:hover,
@@ -322,6 +325,7 @@ a:focus {
 .navbar-inverse .nav>li.active>#contact:focus {
     color: grey !important;
     background-color: transparent;
+    transition: all 0.45s ease 0s;
 }
 
 /*========================================================================================================
