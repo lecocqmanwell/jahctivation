@@ -276,7 +276,14 @@ a:focus {
     background-color: transparent;
     transition: all 0.45s ease 0s;
 }
-
+.dropdown-menu {
+  background-color: #222;
+}
+.dropdown-menu >li > a {
+  color: white;
+  font-family: cuprum;
+  font-weight: bold;
+}
 /*========================================================================================================
                 acceuil page
 ========================================================================================================            */

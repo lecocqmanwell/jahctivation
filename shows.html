@@ -2,17 +2,16 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script type="application/javascript" src="js/main.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="icon" type="image/png" href="img/.png" />
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet" type="text/css">
-  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <title>Jahctivation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="icon" type="image/png" href="img/.png" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>Jahctivation</title>
 </head>
 
 
@@ -38,13 +37,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a id="acc" class="page-scroll navtxt " href="#page1">Accueil</a>
+                        <a id="acc" class="page-scroll navtxt " href="index.html">Home</a>
                     </li>
                     <li>
                         <a id="bio" class="page-scroll navtxt" href="bio.html">Biography</a>
                     </li>
-                    <li>
-                        <a id="show" class="page-scroll navtxt" href="shows.html">Shows</a>
+                    <li class="dropdown">
+                        <a id="show" href="#" class="page-scroll navtxt dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shows<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#mdi1">Birth</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#mdi2">Youth</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#mdi3">Nowadays</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a id="media" class="page-scroll navtxt" href="medias.html">Medias</a>
@@ -65,7 +71,7 @@
 
     </header>
 
-    <section id="page1" class="backgroundcolor1">
+    <section id="mdi1" class="backgroundcolor1">
         <div class="container">
             <div class="row rowacceuil">
                 <div class="col-md-8 col-md-offset-2 text-center">
@@ -96,18 +102,12 @@
                         Fête de la musique à Lille, Jahctivation with Agobun Sound System
                     </p>
 
-
-
-
-
-
-
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="backgroundcolor2">
+    <section id="mdi2" class="backgroundcolor2">
         <div class="container">
             <div class="row rowacceuil">
                 <div class="col-md-8 col-md-offset-2 text-center">
@@ -115,33 +115,33 @@
                     <p class="pacceuil">Last shows</p>
 
 
-<img src="img/show3.jpg" alt="affiche de l'annonce de concert" width="437" height="315"  />
-<time>14 dec 2012</time>
-<p>
-  Jahctivation and Weeding Dub au Kilimandjaro
-</p>
+                    <img src="img/show3.jpg" alt="affiche de l'annonce de concert" width="437" height="315" />
+                    <time>14 dec 2012</time>
+                    <p>
+                        Jahctivation and Weeding Dub au Kilimandjaro
+                    </p>
 
-<img src="img/show4.jpg" alt="affiche de l'annonce de concert" width="437" height="315"  />
-<time>14 march 2009</time>
-<p>
-  Jahctivation and Revelation Hi-Fi
-</p>
+                    <img src="img/show4.jpg" alt="affiche de l'annonce de concert" width="437" height="315" />
+                    <time>14 march 2009</time>
+                    <p>
+                        Jahctivation and Revelation Hi-Fi
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="backgroundcolor3">
+    <section id="mdi3" class="backgroundcolor3">
         <div class="container">
             <div class="row rowacceuil">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <h2>contact us for your shows</h2>
                     <p class="pacceuil">
 
-                      studio/productions <br/>
-                      booking<br/>
-                      graphic design<br/>
-More info: jahctivation@gmail.com
+                        studio/productions
+                        <br/> booking
+                        <br/> graphic design
+                        <br/> More info: jahctivation@gmail.com
 
 
                     </p>
@@ -152,47 +152,51 @@ More info: jahctivation@gmail.com
     </section>
 
 
-        <footer id="mdi4" class="text-center">
-                <div class="footer-above">
-                    <div class="container">
-                        <div class="row">
-                            <div class="footer-col col-md-4">
-                                <h3>Location</h3>
-                                <p>Belgium</p>
-                            </div>
-                            <div class="footer-col col-md-4">
-                                <h3>Jahctivation</h3>
-                                <ul class="list-inline">
-                                    <li>
-                                        <a href="https://www.facebook.com/jahctivation.jahctivasound" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://soundcloud.com/jahctivation" class="btn-social btn-outline"><i class="fa fa-soundcloud"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/user/jahctivation" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
-                                    </li>
 
-                                </ul>
-                            </div>
-                            <div class="footer-col col-md-4">
-                                <h3>About Jahctivation</h3>
-                                <p>Here we are! Need any details to book Jahctivation
-                                    <br>studio/productions
-                                    <br>booking
-                                    <br>graphic design
-                                    <br>More info: jahctivation@gmail.com
-                                </p>
-                                <p>You can contact us at <a href="https://www.facebook.com/pages/Jahctivation/583586021692113">Jahctivation's Facebook</a>.</p>
-                            </div>
-                        </div>
+    <footer id="mdi4" class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Belgium</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Jahctivation</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/jahctivation.jahctivasound" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://soundcloud.com/jahctivation" class="btn-social btn-outline"><i class="fa fa-soundcloud"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/jahctivation" class="btn-social btn-outline"><i class="fa fa-youtube"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Jahctivation</h3>
+                        <p>Here we are! Need any details to book Jahctivation
+                            <br>studio/productions
+                            <br>booking
+                            <br>graphic design
+                            <br>More info: jahctivation@gmail.com
+                        </p>
+                        <p>You can contact us at <a href="https://www.facebook.com/pages/Jahctivation/583586021692113">Jahctivation's Facebook</a>.</p>
                     </div>
                 </div>
-            </footer>
+
+            </div>
+        </div>
+
+    </footer>
 
 
 </body>
+<script type="application/javascript" src="js/vendor/jquery-2.1.4.min.js"></script>
 <script type="application/javascript" src="js/bootstrap.min.js"></script>
 <script type="application/javascript" src="js/main.js"></script>
-<script type="application/javascript" src="js/vendor/jquery-2.1.4.min.js"></script>
+
 </html>
