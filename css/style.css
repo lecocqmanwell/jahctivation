@@ -388,3 +388,7 @@ a:focus {
 #myCarousel {
     padding: 30em;
 }
+.imgslider {
+    margin: 0;
+    padding: 0;
+}
