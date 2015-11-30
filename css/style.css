@@ -1,11 +1,12 @@
 /*========================================================================================================
             général
 ========================================================================================================            */
+
 body {
     font-size: 62.5%;
 }
-h1, h2, h3  {
-    font-family: lobster, "Open Sans","Helvetica Neue",Arial,sans-serif
+h1, h2, h3 {
+    font-family: lobster, "Open Sans", "Helvetica Neue", Arial, sans-serif
 }
 p, .navtxt {
     font-size: 2.7em;
@@ -15,18 +16,19 @@ p, .navtxt {
 /*========================================================================================================
             header
 ========================================================================================================            */
+
 header {
-  position: relative;
-  width: 100%;
-  min-height: 600px;
-  text-align: center;
-  color: #fff;
-  background-image: url(../img/header.jpg);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 h1 {
     margin-top: 0;
@@ -35,26 +37,28 @@ h1 {
     padding-left: 35px;
 }
 .img-resp {
-  width: 15%;
-  height: auto;
+    width: 15%;
+    height: auto;
 }
 .col-md-4 {
-  text-align: center;
+    text-align: center;
 }
 .backgroundcolor1 {
-  background-color: #5CB85C;
-  color: white;
+    background-color: #5CB85C;
+    color: white;
 }
 .backgroundcolor2 {
-  background-color: #ffe63b;
+    background-color: #ffe63b;
 }
 .backgroundcolor3 {
-  background-color: #FF3737;
-  color: white;
+    background-color: #FF3737;
+    color: white;
 }
+
 /*========================================================================================================
                 footer
 ========================================================================================================            */
+
 footer {
     background-color: black;
     color: grey;
@@ -63,11 +67,9 @@ footer {
 footer h3 {
     margin-bottom: 30px;
 }
-
 footer .footer-above {
     padding-top: 50px;
 }
-
 footer .footer-col {
     margin-bottom: 50px;
 }
@@ -81,13 +83,9 @@ footer .footer-col {
     font-size: 20px;
     line-height: 45px;
 }
-
-.btn:focus,
-.btn:active,
-.btn.active {
+.btn:focus, .btn:active, .btn.active {
     outline: 0;
 }
-
 .scroll-top {
     z-index: 1049;
     position: fixed;
@@ -96,7 +94,6 @@ footer .footer-col {
     width: 50px;
     height: 50px;
 }
-
 .scroll-top .btn {
     width: 50px;
     height: 50px;
@@ -104,11 +101,9 @@ footer .footer-col {
     font-size: 20px;
     line-height: 28px;
 }
-
 .scroll-top .btn:focus {
     outline: 0;
 }
-
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
@@ -119,20 +114,16 @@ footer .footer-col {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
-
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
-
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
 }
-
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -142,11 +133,9 @@ footer .footer-col {
     background-color: transparent;
     cursor: pointer;
 }
-
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
-
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
@@ -157,7 +146,6 @@ footer .footer-col {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
@@ -167,162 +155,123 @@ footer .footer-col {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
-
 footer.text-center {
-  width: 100%;
-  height: 370px;
+    width: 100%;
+    height: 370px;
 }
+
 /*========================================================================================================
             navbar
 ========================================================================================================            */
+
 .btn {
     border: 0px none;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
     font-weight: 700;
 }
 a:focus {
-  outline: 0;
+    outline: 0;
 }
 .navbar-inverse {
-    border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    border-color: rgba(34, 34, 34, .05);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     background-color: #222;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
 .navbar-inverse .navbar-header .navbar-brand {
-
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .navbar-header .navbar-brand:hover,
-.navbar-inverse .navbar-header .navbar-brand:focus {
+.navbar-inverse .navbar-header .navbar-brand:hover, .navbar-inverse .navbar-header .navbar-brand:focus {
     color: red;
     transition: all 0.45s ease 0s;
 }
-
-.navbar-inverse .nav > li>#acc,
-.navbar-inverse .nav>li>#acc:focus {
+.navbar-inverse .nav > li>#acc, .navbar-inverse .nav>li>#acc:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .nav > li>#acc:hover,
-.navbar-inverse .nav>li>#acc:focus:hover {
+.navbar-inverse .nav > li>#acc:hover, .navbar-inverse .nav>li>#acc:focus:hover {
     color: grey;
     transition: all 0.45s ease 0s;
 }
-.navbar-inverse .nav > li>#bio,
-.navbar-inverse .nav>li>#bio:focus {
+.navbar-inverse .nav > li>#bio, .navbar-inverse .nav>li>#bio:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .nav > li>#bio:hover,
-.navbar-inverse .nav>li>#bio:focus:hover {
+.navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
     color: #5CB85C;
     transition: all 0.45s ease 0s;
 }
-
-.navbar-inverse .nav > li>#show,
-.navbar-inverse .nav>li>#show:focus {
+.navbar-inverse .nav > li>#show, .navbar-inverse .nav>li>#show:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .nav > li>#show:hover,
-.navbar-inverse .nav>li>#show:focus:hover {
+.navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
     color: #ffe63b;
     transition: all 0.45s ease 0s;
 }
-.navbar-inverse .nav > li>#media,
-.navbar-inverse .nav>li>#media:focus {
+.navbar-inverse .nav > li>#media, .navbar-inverse .nav>li>#media:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .nav > li>#media:hover,
-.navbar-inverse .nav>li>#media:focus:hover {
+.navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
     color: #FF3737;
     transition: all 0.45s ease 0s;
 }
-.navbar-inverse .nav > li>#contact,
-.navbar-inverse .nav>li>#contact:focus {
+.navbar-inverse .nav > li>#contact, .navbar-inverse .nav>li>#contact:focus {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
 }
-
-.navbar-inverse .nav > li>#contact:hover,
-.navbar-inverse .nav>li>#contact:focus:hover {
+.navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
     color: grey;
     transition: all 0.45s ease 0s;
 }
-
-.navbar-inverse .nav > li>#bio:hover,
-.navbar-inverse .nav>li>#bio:focus:hover {
+.navbar-inverse .nav > li>#bio:hover, .navbar-inverse .nav>li>#bio:focus:hover {
     color: #5CB85C;
 }
-
-.navbar-inverse .nav > li.active>#bio,
-.navbar-inverse .nav>li.active>#bio:focus {
+.navbar-inverse .nav > li.active>#bio, .navbar-inverse .nav>li.active>#bio:focus {
     color: #5CB85C!important;
     background-color: transparent;
     transition: all 0.45s ease 0s;
 }
-
-
-.navbar-inverse .nav > li>#show:hover,
-.navbar-inverse .nav>li>#show:focus:hover {
+.navbar-inverse .nav > li>#show:hover, .navbar-inverse .nav>li>#show:focus:hover {
     color: #ffe63b;
 }
-
-.navbar-inverse .nav > li.active>#show,
-.navbar-inverse .nav>li.active>#show:focus {
+.navbar-inverse .nav > li.active>#show, .navbar-inverse .nav>li.active>#show:focus {
     color: #ffe63b!important;
     background-color: transparent;
     transition: all 0.55s ease 0s;
 }
-
-
-.navbar-inverse .nav > li>#media:hover,
-.navbar-inverse .nav>li>#media:focus:hover {
+.navbar-inverse .nav > li>#media:hover, .navbar-inverse .nav>li>#media:focus:hover {
     color: #FF3737;
 }
-
-.navbar-inverse .nav > li.active>#media,
-.navbar-inverse .nav>li.active>#media:focus {
+.navbar-inverse .nav > li.active>#media, .navbar-inverse .nav>li.active>#media:focus {
     color: #FF3737!important;
     background-color: transparent;
     transition: all 0.45s ease 0s;
 }
-
-.navbar-inverse .nav > li>#contact:hover,
-.navbar-inverse .nav>li>#contact:focus:hover {
-    color: grey ;
+.navbar-inverse .nav > li>#contact:hover, .navbar-inverse .nav>li>#contact:focus:hover {
+    color: grey;
 }
-
-.navbar-inverse .nav > li.active>#contact,
-.navbar-inverse .nav>li.active>#contact:focus {
+.navbar-inverse .nav > li.active>#contact, .navbar-inverse .nav>li.active>#contact:focus {
     color: grey !important;
     background-color: transparent;
     transition: all 0.45s ease 0s;
@@ -331,21 +280,24 @@ a:focus {
 /*========================================================================================================
                 acceuil page
 ========================================================================================================            */
+
 .pacceuil {
     margin: 35px 35px 45px;
 }
 .rowacceuil {
-  padding: 70px 70px;
+    padding: 70px 70px;
 }
+
 /*========================================================================================================
                 bio page
 ========================================================================================================            */
+
 .biotext {
     text-align: justify;
     margin-top: 3em;
     font-weight: bold;
     margin-bottom: 2em;
-  }
+}
 .bioh2 {
     text-align: center;
     padding-top: 2em;
@@ -354,12 +306,12 @@ a:focus {
     padding: 50px;
 }
 .bioimg {
-    padding: 20em 19em ;
+    padding: 20em 19em;
 }
 #dancingss {
     height: 570px;
     width: auto;
-    padding: 9em 19em ;
+    padding: 9em 19em;
 }
 #logoss {
     height: 500px;
@@ -371,9 +323,11 @@ a:focus {
     height: 650px;
     width: auto;
 }
+
 /*========================================================================================================
                 medias page
 ========================================================================================================            */
+
 .vids {
     padding-top: 10em;
     padding-bottom: 10em;
@@ -392,12 +346,10 @@ a:focus {
     margin: 0;
     padding: 0;
 }
-
 .carousel-indicators li {
-  border: 2px solid grey;
+    border: 2px solid grey;
 }
-
 .carousel-indicators .active {
-  border-color: #FF3737 ;
-  background-color: #FF3737;
+    border-color: #FF3737;
+    background-color: #FF3737;
 }
