@@ -298,16 +298,18 @@ a:focus {
   }
 .bioh2 {
     text-align: center;
+    padding-top: 2em;
 }
 .biodiv {
     padding: 50px;
 }
 .bioimg {
-    padding: 10em 19em ;
+    padding: 20em 19em ;
 }
 #dancingss {
     height: 570px;
     width: auto;
+    padding: 9em 19em ;
 }
 #logoss {
     height: 500px;
