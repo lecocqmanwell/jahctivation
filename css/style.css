@@ -219,6 +219,7 @@ a:focus {
 .navbar-inverse .navbar-header .navbar-brand {
     font-weight: 700;
     color: #fff;
+    transition: all 1s ease 0.5s;
 }
 .navbar-inverse .navbar-header .navbar-brand:hover, .navbar-inverse .navbar-header .navbar-brand:focus {
     animation: 1s multicolor;
