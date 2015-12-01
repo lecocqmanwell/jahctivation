@@ -23,7 +23,7 @@ header {
     min-height: 600px;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -76,7 +76,7 @@ h1 {
     z-index: -100;
     background: transparent url(video-bg.jpg) no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .logoheader {
     margin-top: 5em;
