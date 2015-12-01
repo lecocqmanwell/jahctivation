@@ -219,6 +219,7 @@ a:focus {
 .navbar-inverse .navbar-header .navbar-brand {
     font-weight: 700;
     color: #fff;
+    transition: all 1s ease 0.5s;
 }
 .navbar-inverse .navbar-header .navbar-brand:hover, .navbar-inverse .navbar-header .navbar-brand:focus {
     animation: 1s multicolor;
@@ -442,6 +443,7 @@ a:focus {
     border-color: #FF3737;
     background-color: #FF3737;
 }
+<<<<<<< HEAD
 /*=========================================================================================================shows page
 =========================================================================================================*/
 #baspage{
@@ -450,3 +452,8 @@ a:focus {
 .pacceuilshow{
   font-size: 4em;
 }
+=======
+/*=========================================================================================================
+                                              shows page
+=========================================================================================================*/
+>>>>>>> ff555ceb89c36d9a6f1783b4a5ef0dceb2702bc7
