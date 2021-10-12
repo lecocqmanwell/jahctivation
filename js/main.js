@@ -87,3 +87,6 @@ $(window).scroll(function() {
     $('#bioimg').removeClass("animated fadeIn");
   }
 });
+
+console.log("yala");
+console.log("yolo");
